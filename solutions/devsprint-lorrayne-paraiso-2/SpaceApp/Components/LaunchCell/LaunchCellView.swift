@@ -35,7 +35,7 @@ struct LaunchCellView: View {
             Spacer()
 
             VStack {
-                Text(viewModel.number)
+                Text(viewModel.number ?? "#0")
                     .font(.system(size: 20, weight: .regular))
                     .foregroundColor(.gray)
 

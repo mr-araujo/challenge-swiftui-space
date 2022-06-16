@@ -13,5 +13,5 @@ struct LaunchCellViewModel {
     let name: String
     let date: String
     let status: String
-    let number: String
+    let number: String?
 }
